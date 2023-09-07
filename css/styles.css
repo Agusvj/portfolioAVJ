@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+#portfolioFoto {
+  filter: grayscale(0.3);
+}
+
+.orange {
+  color: rgba(255, 165, 0, 1);
+}
+
+.orange-bg {
+  background-color: rgba(255, 165, 0, 1);
+  border: none;
+}
+
+.red-orange {
+  color: #FFC55C;
+}
+
+.burgundy {
+  color: rgb(193, 0, 48);
+}
+
+.purple {
+  color: rgba(160, 32, 240, 1);
+}
+
+nav {
+  box-shadow: 0px 1px 2px rgba(255, 165, 0, 0.5),
+    0px 2px 3px rgba(255, 165, 0, 0.5),
+    0px 4px 5px rgba(255, 165, 0, 0.5),
+    0px 5px 7px rgba(255, 165, 0, 0.5);
+}
+
+.logo-avj {
+  width: 130px;
+}
+
+.button-css {
+  border-radius: 10px;
+  padding: 10px 35px;
+  color: rgb(255, 165, 0);
+  ;
+  background-color: transparent;
+  border: solid;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255, 165, 0);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.button-cv {
+  border-radius: 10px;
+  padding: 5px;
+  color: rgb(255, 165, 0);
+  background-color: transparent;
+  border: solid;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255, 165, 0);
+  font-weight: 600;
+}
+
+.button-cv:hover {
+  color: black;
+  background-color: rgb(255, 165, 0);
+  transition: all 0.5s;
+}
+
+.button-css:hover {
+  transform: scale(1.1);
+  transition: all 0.7s;
+  background-color: rgba(255, 165, 0, 1);
+  color: black;
+}
+
+
+hr {
+  color: rgba(255, 165, 0, 1);
+  border-width: 2px;
+  opacity: 0.8;
+}
+
+.collapseQuery {
+
+  display: none;
+
+}
+
+#hero {
+  height: 100vh;
+}
+
+.bg-hero {
+  box-shadow: 0px 1px 2px rgba(255, 165, 0, 0.5),
+    0px 2px 3px rgba(255, 165, 0, 0.5),
+    0px 4px 5px rgba(255, 165, 0, 0.5),
+    0px 5px 7px rgba(255, 165, 0, 0.5),
+    0px -1px 2px rgba(255, 165, 0, 0.5),
+    0px -2px 3px rgba(255, 165, 0, 0.5),
+    0px -4px 5px rgba(255, 165, 0, 0.5),
+    0px -5px 7px rgba(255, 165, 0, 0.5);
+}
+
+.figure-img {
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+  margin: 0px;
+  filter: grayscale(1);
+}
+
+.figure-img:hover {
+  filter: grayscale(0);
+  transition: all ease-in 0.3s;
+}
+
+.layout {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  width: 70%;
+
+}
+
+.figure-box {
+  width: 100%;
+  max-height: 450px;
+  height: 100%;
+  margin: 0px;
+}
+
+.border-box-figure {
+  border-radius: 10px;
+  border: 0.2px solid rgba(255, 255, 255, 0.3);
+}
+
+figcaption a {
+  text-decoration: none;
+  color: white;
+}
+
+figcaption a:hover {
+  color: rgba(255, 165, 0, 1);
+  transition: all ease-in 0.3s;
+}
+
+footer {
+  box-shadow: 0px -1px 2px rgba(255, 165, 0, 0.5),
+    0px -2px 3px rgba(255, 165, 0, 0.5),
+    0px -4px 5px rgba(255, 165, 0, 0.5),
+    0px -5px 7px rgba(255, 165, 0, 0.5);
+  ;
+}
+
+@media (max-width: 991px) {
+
+  #staticParagraph {
+    display: none;
+  }
+
+  .collapseQuery {
+
+    display: flex;
+
+  }
+
+  .layout {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    width: 70%;
+
+  }
+
+  .figure-box {
+    width: 100%;
+    max-height: 450px;
+    height: 100%;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  #staticParagraph {
+    display: none;
+  }
+
+  .collapseQuery {
+
+    display: flex;
+
+  }
+
+  .layout {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    width: 70%;
+
+  }
+
+  .figure-box {
+    width: 100%;
+    max-height: 250px;
+    height: 100%;
+  }
+
+}

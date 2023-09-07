@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+      name="description"
+      content="Soy un profesional apasionado por la creación de soluciones web de
+      alta calidad. Con experiencia en una variedad de tecnologías y
+      lenguajes de programación, disfruto crear productos que esten a la
+      altura de las necesidades de mis clientes y usuarios finales.
+      Además, busco experiencia para trabajar con equipos
+      multidisciplinarios y lograr los objetivos del proyecto. ¡Estoy
+      listo para enfrentar nuevos desafíos y llevar tus ideas al
+      siguiente nivel!"
+    />
+    <meta
+      name="keywords"
+      content="Desarrollador FullStack, Front End, Villanueva Jousset Agustin, programacion, desarrollador web, platzi, coderhouse, mobile first"
+    />
+    <meta name="robots" content="index,follow" />
+
+  <title>AVJ - Web Development</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="icon" type="image/png" href="./imgs/favicon-32x32.png" sizes="32x32" />
+</head>
+
+<body class="bg-dark">
+  <header>
+    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold orange fs-3" href="#"><img src="./imgs/avjlogo1.png" alt="" class="logo-avj"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#educacion">Educación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#capacidades">Capacidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+          </ul>
+          <a href="./cv/agustinvillanuevajousset-cv.pdf" target="_blank"
+            class="text-decoration-none button-css">
+            Descargar CV
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="bg-dark d-flex align-items-center justify-content-center" id="hero">
+    <div class="container-fluid col-xxl-10">
+      <div class="row flex-lg-row-reverse align-items-center container-fluid d-flex m-0 justify-content-center">
+        <div class="col-10 col-sm-8 col-lg-6 d-flex align-items-center justify-content-center mb-4 mb-md-0 ">
+          <img src="./imgs/portfoliofoto.webp" class="mx-lg-auto img-fluid rounded" alt="Foto de Agustin Villanueva"
+            width="500" height="700" id="portfolioFoto" />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-sm mb-3 text-light text-center text-lg-start mt-2 mt-lg-0 ">
+            Villanueva Jousset, Agustin. <span class="orange fw-bolder">Desarrollador</span> Web FullStack
+          </h1>
+          <hr />
+          <p class="lead text-secondary mt-4 mb-4 text-center text-lg-start" id="staticParagraph">
+            Soy un profesional apasionado por la creación de soluciones web de
+            alta calidad. Con experiencia en una variedad de tecnologías y
+            lenguajes de programación, disfruto crear productos que esten a la
+            altura de las necesidades de mis clientes y usuarios finales.
+            Además, busco experiencia para trabajar con equipos
+            multidisciplinarios y lograr los objetivos del proyecto. ¡Estoy
+            listo para enfrentar nuevos desafíos y llevar tus ideas al
+            siguiente nivel!
+          </p>
+          <p id="collapseParagraph" class="align-items-center justify-content-center flex-column collapseQuery"></p>
+          <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
+            <a href="https://wa.me/542901488039?text=Hola+Agustin!" class="button-css mt-3" target="_blank">Contáctame</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section>
+
+    <div class="container-fluid col-xxl-10 px-4 pb-2" id="educacion">
+      <p class="pb-2 text-light fs-2">Un resumen de mi <span class="orange fw-bold">Educación</span> más relevante</p>
+      <hr class="orange">
+
+      <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-3">
+        <div class="col d-flex flex-column align-items-start gap-2">
+          <h2 class="fw-bold text-white fs-1">Desarrollador Web <span class="orange fw-bolder">FullStack</span>
+          </h2>
+          <p class="text-secondary">Cursada realizada en CoderHouse </p>
+          <button type="button" class="bg-dark text-light border-0 text-decoration-underline" data-bs-toggle="modal"
+            data-bs-target="#educationModal">
+            Ver más ▼
+          </button>
+        </div>
+
+        <div class="modal fade" id="educationModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+          data-bs-theme="dark">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title fs-5 orange" id="exampleModalLabel">Educación</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body text-secondary">
+                <ul>
+                  <li>Desarrollador Web, CoderHouse
+                    Finalización: Octubre 2022. Ushuaia</li>
+                  <li>JavaScript, CoderHouse
+                    Finalización: Enero 2023. Ushuaia</li>
+                  <li>React, CoderHouse
+                    Finalización. Ushuaia</li>
+                  <li>Desarrollo Web FullStack, CoderHouse
+                    Actualmente cursando.. Ushuaia</li>
+                  <li>Responsive Web Design, FreeCodeCamp
+                    Finalización: Junio 2023. Ushuaia</li>
+                  <li>Platzi
+                    Actualmente cursando.. Ushuaia
+                    Curso de Programación básica y creación de tiendas en línea con woocommerce.</li>
+                  <li>Platzi
+                    Marzo 2023. Ushuaia
+                    Curso de Creación de páginas web y Creación de blogs con WordPress.</li>
+                  <li>Platzi
+                    Febrero 2023. Ushuaia
+                    Curso de computación básica. Curso de pensamiento lógico: Algoritmos y diagramas de flujo. Curso de
+                    pensamiento lógico: Funciones y estructuras de control. Curso de pensamiento lógico: Lenguajes de
+                    programación. Introducción a la web: Historia y funcionamiento de internet.</li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="button-css" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+          <div class="row row-cols-1 row-cols-sm-2 g-4">
+            <div class="col d-flex flex-column gap-2">
+              <div class="justify-content-center w-100 align-items-center">
+                <div
+                  class="badge d-flex align-items-center p-1 pe-2 text-warning-emphasis orange-bg rounded pe-5 ps-5 justify-content-center">
+                  <img class="rounded-circle me-1" width="32" height="32" src="./imgs/coderhouse_logo.webp"
+                    alt="logo de coderhouse">CODERHOUSE
+                </div>
+              </div>
+              <h4 class="fw-semibold mb-0 text-light">JavaScript</h4>
+              <p class="text-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+              <h4 class="fw-semibold mb-0 text-light">ReactJs</h4>
+              <p class="text-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+              <h4 class="fw-semibold mb-0 text-light mt-2 mb-2">Programación Backend</h4>
+              <p class="text-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+            </div>
+
+            <div class="col d-flex flex-column gap-2">
+              <div class="justify-content-center w-100 align-items-center">
+                <div
+                  class="badge d-flex align-items-center p-1 pe-2 text-warning-emphasis orange-bg rounded pe-5 ps-5 justify-content-center">
+                  <img class="rounded-circle me-1" width="32" height="32" src="./imgs/platzi.webp"
+                    alt="logo de platzi">PLATZI
+                </div>
+              </div>
+              <h4 class="fw-semibold mb-0 text-light">Wordpress - Blogs</h4>
+              <p class="text-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+              <h4 class="fw-semibold mb-0 text-light">Wordpress - WooCommerce</h4>
+              <p class="text-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+  <section>
+
+    <div class="my-5" id="capacidades">
+      <div class="pt-3 pb-3 p-md-5 text-center bg-hero">
+        <div class="container mt-3 mb-5 ">
+          <h3 class="fs-3 text-white fw-bold mb-4">Capacidades</h3>
+          <p class="col-lg-8 mx-auto lead text-secondary">
+            Como desarrollador web fullstack, mi <span class="orange fw-bold">objetivo</span> es ayudarte a destacar tu
+            negocio con soluciones <span class="orange fw-bold">completas</span> y <span
+              class="orange fw-bold">personalizadas</span>
+          </p>
+        </div>
+
+        <div class="container-fluid d-flex flex-column">
+
+          <div class="container-fluid flex-column flex-lg-row d-flex justify-content-center mb-5 flex-wrap">
+            <div class="col-12 col-lg-3 me-lg-5 mb-3">
+              <p class="fs-1 orange text-start border-top border-secondary">01.</p>
+              <h5 class="text-white text-start">Diseño web atractivo y funcional:</h5>
+              <p class="text-secondary text-start pe-5">Tu pagina web moderna y atractiva, que a su vez sea fácil de usar
+                y
+                que
+                mejoren la experiencia del usuario.</p>
+            </div>
+
+            <div class="col-12 col-lg-3 me-lg-5 mb-3">
+              <p class="fs-1 orange text-start border-top border-secondary">02.</p>
+              <h5 class="text-white text-start">Desarrollo de aplicaciones web personalizadas:</h5>
+              <p class="text-secondary text-start pe-5">Tu aplicación web 100% personalizada, adaptadas a tus
+                necesidades
+                específicas</p>
+            </div>
+
+            <div class="col-12 col-lg-3 me-lg-5 mb-3">
+              <p class="fs-1 orange text-start border-top border-secondary">03.</p>
+              <h5 class="text-white text-start">Optimización de rendimiento y SEO:</h5>
+              <p class="text-secondary text-start pe-5">Mejoro el rendimiento de tu sitio web y las aplicaciones para
+                que se carguen más rápido y con un SEO superior</p>
+            </div>
+
+          </div>
+
+          <div class="container-fluid flex-column flex-lg-row d-flex justify-content-center mb-5">
+
+            <div class="col-12 col-lg-3 me-lg-5 mb-3">
+              <p class="fs-1 orange text-start border-top border-secondary">04.</p>
+              <h5 class="text-white text-start">Integración de plataformas y sistemas:</h5>
+              <p class="text-secondary text-start pe-5">Integro a tu pagina o aplicacion web diferentes herramientas y
+                servicios de terceros, como herramientas de análisis de datos, plataformas de pago y servicios de
+                marketing digital</p>
+            </div>
+
+            <div class="col-12 col-lg-3 me-lg-5 mb-3">
+              <p class="fs-1 orange text-start border-top border-secondary">05.</p>
+              <h5 class="text-white text-start">Desarrollo Mobile First:</h5>
+              <p class="text-secondary text-start pe-5">Tu proyecto sera 100% responsive, para que pueda ser utilizado y
+                visto desde cualquier pantalla movíl</p>
+            </div>
+
+            <div class="col-12 col-lg-3 me-lg-5 mb-3">
+              <p class="fs-1 orange text-start border-top border-secondary">06.</p>
+              <h5 class="text-white text-start">Soporte y mantenimiento técnico:</h5>
+              <p class="text-secondary text-start pe-5">Mantengo mi servicio Post-Entrega, dando soluciones en caso de
+                errores o problemas que surjan con tu proyecto</p>
+            </div>
+
+          </div>
+          <div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="d-flex flex-column align-items-center justify-content-center" id="proyectos">
+
+    <h3 class="text-white mb-4 fw-bold mt-3">Proyectos <span class="orange fw-bold">Reales</span></h3>
+
+    <p class="col-lg-6 mx-auto lead text-secondary text-center pb-4">
+      Algunos de los proyectos que hoy estan en linea, a la medida del cliente y con las funcionalidades cubiertas
+
+    <div class="layout">
+
+      <div class="border-box-figure">
+        <figure class="figure-box">
+          <a href="./imgs/kotaix.webp" class="fresco" data-fresco-group="webs"><img src="./imgs/kotaix.webp"
+              alt="Pagina web Kotaix" class="figure-img" loading="eager"></a>
+        </figure>
+        <figcaption class="p-3"><a href="https://kotaixbox.com.ar/index.html" target="_blank"><span
+              class="orange fw-bold">Visita:</span> Kotaix Fitness Box</a></figcaption>
+      </div>
+
+      <div class="border-box-figure">
+        <figure class="figure-box">
+          <a href="./imgs/ushuaiapadelcenter.webp" class="fresco" data-fresco-group="webs"><img
+              src="./imgs/ushuaiapadelcenter.webp" alt="Pagina web ushuaia padel center" class="figure-img"
+              loading="eager"></a>
+        </figure>
+        <figcaption class="p-3"><a href="https://ushuaiapadelcenter.com/" target="_blank"><span
+              class="orange fw-bold">Visita:</span> Ushuaia Padel Center</a></figcaption>
+      </div>
+
+      <div class="border-box-figure">
+        <figure class="figure-box">
+          <a href="./imgs/vanstoursush.webp" class="fresco" data-fresco-group="webs"><img src="./imgs/vanstoursush.webp"
+              alt="" class="figure-img" loading="eager"></a>
+        </figure>
+        <figcaption class="p-3"><a href="https://vanstoursush.com/" target="_blank"><span
+              class="orange fw-bold">Visita:</span> Vans Tours Ush</a></figcaption>
+      </div>
+
+      <div class="border-box-figure">
+        <figure class="figure-box">
+          <a href="./imgs/ulock.webp" class="fresco" data-fresco-group="webs"><img src="./imgs/ulock.webp"
+              alt="pagina web ulocker" class="figure-img" loading="eager"></a>
+        </figure>
+        <figcaption class="p-3"><a href="" target="_blank"><span class="orange fw-bold">En proceso:</span> U Locker
+            (100% NextJs)</a></figcaption>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center p-4 mt-5 flex-column flex-sm-row">
+      <div class="col-md-4 d-flex align-items-center flex-column flex-sm-row">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <img src="./imgs/avjlogo1.png" alt="" width="50">
+        </a>
+        <span class="mb-3 mb-md-0 text-secondary">agustinvillanuevajousset@gmail.com</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a href="https://www.linkedin.com/in/agustin-villanueva-jousset-481124253/" target="_blank">
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white"
+          class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path
+          d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+        </svg>
+      </a>
+        
+        </li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://wa.me/542901488039?text=Hola+Agustin!" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+              height="24" fill="white" class="bi bi-whatsapp" viewBox="0 0 16 16">
+              <path
+                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+            </svg></a></li>
+
+      </ul>
+    </footer>
+  </section>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
+
+  <script src="./js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="./node_modules/@staaky/fresco/dist/js/fresco.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./node_modules/@staaky/fresco/dist/css/fresco.css" />
+
+
+</body>
+
+</html>
